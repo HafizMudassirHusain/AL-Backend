@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Default Route
 app.get("/", (req, res) => {
-  res.send("Welcome to Al-Rehman Kitchen API");
+  res.send("Welcome to MZ Kitchen API");
 });
 
 const PORT = process.env.PORT || 5000;
